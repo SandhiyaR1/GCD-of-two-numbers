@@ -21,9 +21,20 @@ Developed by:
 RegisterNumber:  
 */
 ```
+x=int ( input ())
+y=int (input ())
+def gcd():
+    if x>y:
+        smaller=y
+    else:
+        smaller=x
+    for i in range(1,smaller+1):
+        if (x % i ==0 and y % i==0):
+            gcd1=i
+    print("GCD of two numbers is:",gcd1)
 
 ## Output:
-![gcd of two number](gcd.png)
+![output](/gcd.PNG)
 
 
 ## Result:
